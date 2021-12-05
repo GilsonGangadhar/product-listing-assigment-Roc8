@@ -1,0 +1,123 @@
+[
+    {
+        "id" : 1,
+        "title" : "Men's White T-shirt - 1",
+        "Ideal_for" : "Male",
+        "size" : "S",
+        "brand" : "Roadster",
+        "price" : 400,
+        "image" : "/images/roadsterM1.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "Men's White T-shirt - 2",
+        "Ideal_for" : "Male",
+        "size" : "M",
+        "brand" : "Roadster",
+        "price" : 500,
+        "image" : "/images/roadsterM1.jpg"
+        
+    },
+    {
+        "id" : 3,
+        "title" : "Men's White T-shirt - 3",
+        "Ideal_for" : "Male",
+        "size" : "L",
+        "brand" : "Seven Rocks",
+        "price" : 700,
+        "image" : "/images/roadsterM1.jpg"
+        
+    },
+    {
+        "id" : 4,
+        "title" : "Men's White T-shirt - 4",
+        "Ideal_for" : "Male",
+        "size" : "XL",
+        "brand" : "Seven Rocks",
+        "price" : 800,
+        "image" : "/images/roadsterM1.jpg"
+        
+    },
+    {
+        "id" : 5,
+        "title" : "Men's White T-shirt - 5",
+        "Ideal_for" : "Male",
+        "size" : "XXL",
+        "brand" : "Puma",
+        "price" : 1200,
+        "image" : "/images/roadsterM1.jpg"
+        
+    },
+    {
+        "id" : 6,
+        "title" : "Women's Black T-shirt - 1",
+        "Ideal_for" : "Female",
+        "size" : "S",
+        "brand" : "Seven Rocks",
+        "price" : 600,
+        "image" : "/images/roadsterF1.jpg"
+        
+    },
+    {
+        "id" : 7,
+        "title" : "Women's Black T-shirt - 2",
+        "Ideal_for" : "Female",
+        "size" : "M",
+        "brand" : "Roadster",
+        "price" : 450,
+        "image" : "/images/roadsterF1.jpg"
+        
+    },
+    {
+        "id" : 8,
+        "title" : "Women's Black T-shirt - 3",
+        "Ideal_for" : "Female",
+        "size" : "L",
+        "brand" : "Roadster",
+        "price" : 550,
+        "image" : "/images/roadsterF1.jpg"
+        
+    },
+    {
+        "id" : 9,
+        "title" : "Women's Black T-shirt - 4",
+        "Ideal_for" : "Female",
+        "size" : "XL",
+        "brand" : "Seven Rocks",
+        "price" : 750,
+        "image" : "/images/roadsterF1.jpg"
+        
+    },
+    {
+        "id" : 10,
+        "title" : "Women's Black T-shirt - 5",
+        "Ideal_for" : "Female",
+        "size" : "M",
+        "brand" : "Under Armour",
+        "price" : 1100,
+        "image" : "/images/roadsterF1.jpg"
+        
+    },
+    {
+        "id" : 11,
+        "title" : "Kid's Red T-shirt - 1",
+        "Ideal_for" : "Kids",
+        "size" : "S",
+        "brand" : "Roadster",
+        "price" : 370,
+        "image" : "/images/roadsterK1.jpg"
+        
+    },
+    {
+        "id" : 12,
+        "title" : "Kid's Red T-shirt - 2",
+        "Ideal_for" : "Kids",
+        "size" : "M",
+        "brand" : "Roadster",
+        "price" : 490,
+        "image" : "/images/roadsterK1.jpg"
+        
+    }
+    
+    
+]

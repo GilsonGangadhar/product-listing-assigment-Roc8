@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Home from "./components/Home";
+import Sidebar from "./components/Sidebar";
+import "./App.css";
 
 function App() {
+  const [sizeArr, setSize] = useState([]);
+  const [brandArr, setBrand] = useState([]);
+  const [genderArr, setGender] = useState([]);
+
+  const handleFilters = (obj) => {
+    if (obj.type == "size") {
+      setSize(obj.value);
+    } else if (obj.type == "brand") {
+      setBrand(obj.value);
+    } else {
+      setGender(obj.value);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Sidebar changeFilters={handleFilters} />
+      <Home sizeArr={sizeArr} brandArr={brandArr} genderArr={genderArr} />
     </div>
   );
 }
