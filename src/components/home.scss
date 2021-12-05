@@ -12,4 +12,17 @@
       height: 250px;
     }
   }
+
+  &__sorting{
+    margin-bottom: 1rem;
+
+    button{
+      margin : 0 0.5rem;
+      padding : 0.4rem;
+      background-color : #2874f0;
+      color : #fff;
+      border : none;
+      cursor: pointer;
+    }
+  }
 }

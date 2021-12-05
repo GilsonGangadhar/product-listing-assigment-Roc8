@@ -44,11 +44,10 @@ function Home({ sizeArr, brandArr, genderArr }) {
 
   return (
     <div className="HomePage">
-      <div>
+      <div className="HomePage__sorting">
         SORT :<button onClick={() => handleSort(true)}>Low to High</button>
         <button onClick={() => handleSort(false)}>High to Low</button>
       </div>
-      <h2 style={{ marginTop: "0" }}>Listing Products</h2>
       <div className="HomePage__listing">
         {products.map(({ id, title, Ideal_for, size, brand, price, image }) => (
           <div className="HomePage__card" key={id}>

@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [sizeArr, setSize] = useState([]);
@@ -20,9 +21,12 @@ function App() {
   };
 
   return (
-    <div className="app">
-      <Sidebar changeFilters={handleFilters} />
-      <Home sizeArr={sizeArr} brandArr={brandArr} genderArr={genderArr} />
+    <div>
+      <Navbar />
+      <div className="app">
+        <Sidebar changeFilters={handleFilters} />
+        <Home sizeArr={sizeArr} brandArr={brandArr} genderArr={genderArr} />
+      </div>
     </div>
   );
 }
