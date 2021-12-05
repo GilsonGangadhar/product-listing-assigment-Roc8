@@ -27,11 +27,12 @@ function Home({ sizeArr, brandArr, genderArr }) {
       });
     });
 
-    if (sizeArr.length == 0 && brandArr.length == 0 && genderArr.length == 0) {
+    if (sizeArr.length === 0 && brandArr.length === 0 && genderArr.length === 0) {
       setProducts(Data);
     } else {
       setProducts(filteredData);
     }
+    // eslint-disable-line react-hooks/exhaustive-deps
   }, [sizeArr, brandArr, genderArr]);
 
   const handleSort = (ascending) => {

@@ -10,15 +10,18 @@ function Sidebar({changeFilters}) {
 
   useEffect(() => {
     changeFilters({type: 'size', value: size});
+    // eslint-disable-line react-hooks/exhaustive-deps
   }, [size])
 
   useEffect(() => {
     changeFilters({type: 'brand', value: brand});
+    // eslint-disable-line react-hooks/exhaustive-deps
   }, [brand])
 
 
   useEffect(() => {
     changeFilters({type: 'gender', value: Gender});
+    // eslint-disable-line react-hooks/exhaustive-deps
   }, [Gender])
 
   const handleSize = (e) => {
