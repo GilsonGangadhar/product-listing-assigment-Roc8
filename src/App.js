@@ -11,9 +11,9 @@ function App() {
   const [genderArr, setGender] = useState([]);
 
   const handleFilters = (obj) => {
-    if (obj.type == "size") {
+    if (obj.type === "size") {
       setSize(obj.value);
-    } else if (obj.type == "brand") {
+    } else if (obj.type === "brand") {
       setBrand(obj.value);
     } else {
       setGender(obj.value);

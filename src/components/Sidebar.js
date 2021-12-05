@@ -40,7 +40,7 @@ function Sidebar({changeFilters}) {
   const handleGender = (e) => {
     if (Gender.includes(e.target.value)) {
       setGender((prevState) =>
-        prevState.filter((item) => item != e.target.value)
+        prevState.filter((item) => item !== e.target.value)
       );
     } else {
       setGender([...Gender, e.target.value]);
